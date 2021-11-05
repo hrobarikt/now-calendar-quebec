@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-20581-now-calendar": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "My Component",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_20581_now_cale_1"
+}

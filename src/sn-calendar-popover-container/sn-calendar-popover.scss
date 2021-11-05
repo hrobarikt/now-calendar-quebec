@@ -1,0 +1,26 @@
+:host {
+  box-sizing: border-box;
+  line-height: var(--now-line-height, 1.25);
+  font-family: var(--now-font-family, "Source Sans Pro", sans-serif);
+}
+:host([hidden]) {
+  display: none;
+}
+*,
+.sn-calendar-popover,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.sn-calendar-popover {
+  display: block;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 4px 0.5rem 0 RGBA(var(--now-color--neutral-21, 0, 0, 0), 0.25);
+  border-radius: 3px;
+  min-height: 130px;
+  overflow: auto;
+  max-width: 350px;
+}
+
+// exports
